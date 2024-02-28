@@ -50,4 +50,29 @@ function sumArray(array) {
 }
 let arr= [1,2,4];
 sumArray(arr);
-   
+// Another example
+const b =  [1, 2, 3, 4, 5];
+
+// Using forEach to iterate over each element in the array
+b.forEach(function(number) {
+    // Multiply each number by 2 and print the result
+    console.log(number * 2);
+});
+// TO calculate tha average
+const students = [
+    { name: 'John', score: 85 },
+    { name: 'Alice', score: 90 },
+    { name: 'Bob', score: 75 },
+    { name: 'Emily', score: 95 }
+];
+
+let totalScore = 0;
+
+students.forEach(function(student) {
+    totalScore += student.score;
+});
+  
+const averageScore = totalScore / students.length;
+
+console.log("Average score:", averageScore);
+
