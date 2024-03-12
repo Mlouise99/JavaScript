@@ -3,7 +3,7 @@ const myName= "Louise";
 const isSheAgirl = true;
 const array = ["string", 12, false];
 const myFavFood=["bean","maize", "meat"];
-console.log("my name is " + myName + "and am " + age + "years old");
+console.log("my name is " + myName + 'and am ' + age + "years old");
 console.log('my name is ${myName} and am ${age} years old');
 console.log(array);
 console.log(myFavFood);
